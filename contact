@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT</title>
+    <link herf="style.css" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(BG.jpg) ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left{
+	margin-top: 60px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="column" id="left">
+    	<h2>Contact Us</h2>
+     <img src="email.png" style="height: 15px; width:auto;">
+     		<P><a href="mailto:MAAHA1212@HOTMAIL.com">Contact@mail</a>.</P> 
+     <img src="phone.png" style="height: 15px; width:auto;">
+    		<p> <a href="tel:96655569832">96655569832</a>.</p><br>
+     <img src="hour.png" style="height: 15px; width:auto;">
+    	    <p>Saturday to Thursday : 8 AM - 6 PM<br>
+     		Friday : 5 PM - 9 PM
+    		 </p>
+     <img src="loca.png" style="height: 15px; width:auto;">
+			<p>moda center 2nd floor<br>
+			Box 786, MEDINAH<br>
+			SA</P>
+    </div>
+  </div>
+</div>
+</body>
+</html>
